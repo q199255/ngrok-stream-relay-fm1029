@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def stream():
-    url = "https://c07354e309ad.ngrok-free.app/stream.mp3"  # 改這裡
+    url = "https://375213f059a3.ngrok-free.app/stream.mp3"  # 改這裡
     headers = {
         'ngrok-skip-browser-warning': '1'  # 用來跳過 Ngrok 防護頁面
     }
