@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def stream():
-    url = os.environ.get("STREAM_URL", "https://375213f059a3.ngrok-free.app/stream.mp3")
+    url = os.environ.get("STREAM_URL", "https://4b36b240df6a.ngrok-free.app/stream.mp3")
     headers = {
         'ngrok-skip-browser-warning': '1'
     }
